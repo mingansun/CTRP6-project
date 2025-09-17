@@ -1,0 +1,1 @@
+featureCounts -p -T 4 --extraAttributes gene_name -a ~/db/ENSEMBL/Gene/GRCm38.gtf -o Merged_count.txt -s 0 *.bam >count.log 2>count.err
